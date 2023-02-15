@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(204, 43%, 93%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Karla";
+}
+
+main {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 41rem;
+    border-radius: 10px;
+}
+
+
+.top {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.top > h2 {
+    font-size: 16px;
+    color: hsl(179, 62%, 43%);
+    font-weight: 700;
+}
+
+.top > h3 {
+    font-size: 16px;
+    color: hsl(71, 73%, 54%);
+}
+
+.top > p {
+    font-size: 16px;
+    color: hsl(218, 22%, 67%);
+    line-height: 1.7rem;
+}
+
+div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bot-l {
+    background-color: hsl(179, 62%, 43%);
+    padding: 3rem;
+    color: white;
+    border-radius: 0px 0 0 10px;
+}
+
+.bot-l > h2 {
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: 0.02rem;
+    margin-bottom: 2.2rem;
+}
+
+.bot-l > h3 {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 2.6rem;
+} 
+
+.bot-l > h3 > span {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.bot-l > p {
+    font-size: 15px;
+    margin-bottom: 1.3rem;
+}
+
+.bot-l > button {
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    border: none;
+    padding: 0.8rem 5rem;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+.bot-l > button:hover {
+    cursor: pointer;
+    background-color: hsl(179, 62%, 43%);
+    transition: all ease-in-out 0.1s;
+    border: solid hsl(71, 73%, 54%) 1px;
+    transform: scale(1.08);
+}
+
+.bot-r {
+    background-color: hsl(179, 62%, 49%);
+    padding: 3rem;
+    color: white;
+    border-radius: 0 0 10px 0;
+}
+
+.bot-r > h2 {
+    margin-bottom: 2rem;
+}
+
+.bot-r > p {
+    line-height: 1.5rem;
+    text-align: left;
+}
